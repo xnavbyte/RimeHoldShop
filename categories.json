@@ -1,1 +1,6 @@
-
+[
+  { "id": "ranks",     "name": "Привилегии" },
+  { "id": "races",     "name": "Расы" },
+  { "id": "cosmetics", "name": "Косметика" },
+  { "id": "kits",      "name": "Наборы" }
+]
