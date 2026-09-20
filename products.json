@@ -1,1 +1,39 @@
-
+[
+  {
+    "name": "VIP",
+    "icon": "vip.png",
+    "category": "ranks",
+    "description": "Базовый статус для комфортной игры.",
+    "price": 199,
+    "command": "lp user {player} parent add vip",
+    "old": 249,
+    "tag": "hot",
+    "perks": ["Префикс VIP в чате", "3 точки дома", "/kit vip раз в сутки"]
+  },
+  {
+    "name": "Ключ смены расы",
+    "icon": "race-key.png",
+    "category": "races",
+    "description": "Разовая смена расы без потери прогресса.",
+    "price": 149,
+    "command": "race givekey {player} 1"
+  },
+  {
+    "name": "Аура «Закат»",
+    "icon": "aura-sunset.png",
+    "category": "cosmetics",
+    "description": "Тёплая переливающаяся аура заката вокруг персонажа.",
+    "price": 179,
+    "command": "cosmetics give {player} aura_sunset",
+    "tag": "new"
+  },
+  {
+    "name": "Набор «Первый день»",
+    "icon": "kit-firstday.png",
+    "category": "kits",
+    "description": "Стартовый набор для новичков сезона.",
+    "price": 259,
+    "old": 329,
+    "command": "crate give {player} starter 1"
+  }
+]
