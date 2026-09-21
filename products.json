@@ -1,39 +1,212 @@
 [
   {
-    "name": "VIP",
-    "icon": "vip.png",
+    "name": "Нова",
+    "icon": "nova.png",
     "category": "ranks",
-    "description": "Базовый статус для комфортной игры.",
-    "price": 199,
-    "command": "lp user {player} parent add vip",
-    "old": 249,
-    "tag": "hot",
-    "perks": ["Префикс VIP в чате", "3 точки дома", "/kit vip раз в сутки"]
+    "description": "Базовая привилегия для комфортной игры.",
+    "price": 119,
+    "command": "lp user {player} parent add nova",
+    "perks": [
+      "/suicide",
+      "/ec",
+      "/hat",
+      "/craft",
+      "/smithingtable",
+      "/feed",
+      "/suff — 12 суффиксов",
+      "1 дом",
+      "/feed — раз в час"
+    ]
   },
   {
-    "name": "Ключ смены расы",
-    "icon": "race-key.png",
-    "category": "races",
-    "description": "Разовая смена расы без потери прогресса.",
-    "price": 149,
-    "command": "race givekey {player} 1"
+    "name": "Спарк",
+    "icon": "spark.png",
+    "category": "ranks",
+    "description": "Все возможности «Новы» и дополнительные игровые функции.",
+    "price": 249,
+    "command": "lp user {player} parent add spark",
+    "perks": [
+      "Все возможности «Новы»",
+      "/repair",
+      "/heal",
+      "/anvil",
+      "/mghast speed 1",
+      "/suff — 18 суффиксов",
+      "2 дома",
+      "/feed — раз в 40 минут",
+      "/repair — раз в 12 часов",
+      "/heal — раз в 12 часов"
+    ]
   },
   {
-    "name": "Аура «Закат»",
-    "icon": "aura-sunset.png",
+    "name": "Шайн",
+    "icon": "shine.png",
+    "category": "ranks",
+    "description": "Расширенная привилегия со свечением и полётом в ограниченной зоне.",
+    "price": 349,
+    "command": "lp user {player} parent add shine",
+    "perks": [
+      "Все возможности «Спарка»",
+      "/glow — выбор цвета свечения",
+      "/mfly — полёт в зоне 15×15 до 15 блоков",
+      "/mghast speed 2",
+      "/suff — 23 суффикса",
+      "7 цветов свечения",
+      "3 дома",
+      "1 варп"
+    ]
+  },
+  {
+    "name": "Фейбл",
+    "icon": "fable.png",
+    "category": "ranks",
+    "description": "Максимальная привилегия с расширенными возможностями.",
+    "price": 500,
+    "command": "lp user {player} parent add fable",
+    "perks": [
+      "Все возможности «Шайна»",
+      "/repair all",
+      "/mfly — зона 30×30 до 25 блоков",
+      "/mweather",
+      "/glow — любой цвет",
+      "/mghast speed 3",
+      "/suff — 28 суффиксов",
+      "4 дома",
+      "2 варпа"
+    ]
+  },
+  {
+    "name": "Кастомный префикс",
+    "icon": "prefix.png",
     "category": "cosmetics",
-    "description": "Тёплая переливающаяся аура заката вокруг персонажа.",
-    "price": 179,
-    "command": "cosmetics give {player} aura_sunset",
-    "tag": "new"
+    "description": "Персональный префикс для чата. Можно использовать цвет и градиент.",
+    "price": 30,
+    "command": "",
+    "perks": [
+      "Персональный текст",
+      "Возможность сделать градиент",
+      "Выдача после обращения в тикет или к администрации"
+    ]
   },
   {
-    "name": "Набор «Первый день»",
-    "icon": "kit-firstday.png",
-    "category": "kits",
-    "description": "Стартовый набор для новичков сезона.",
-    "price": 259,
-    "old": 329,
-    "command": "crate give {player} starter 1"
+    "name": "Кастомный суффикс",
+    "icon": "suffix.png",
+    "category": "cosmetics",
+    "description": "Персональный суффикс для чата. Можно использовать цвет и градиент.",
+    "price": 20,
+    "command": "",
+    "perks": [
+      "Персональный текст",
+      "Возможность сделать градиент",
+      "Выдача после обращения в тикет или к администрации"
+    ]
+  },
+  {
+    "name": "Сохранение инвентаря",
+    "icon": "keepinventory.png",
+    "category": "season",
+    "description": "KeepInventory только для вашего игрока сроком на 2 сезона.",
+    "price": 359,
+    "command": "",
+    "perks": [
+      "Сохранение инвентаря после смерти",
+      "Действует 2 сезона"
+    ]
+  },
+  {
+    "name": "Огненная элитра",
+    "icon": "elytra-fire.png",
+    "category": "items",
+    "description": "Особая элитра для путешествий и полётов.",
+    "price": 99,
+    "command": "",
+    "perks": [
+      "Выдача предмета вручную",
+      "До открытия Энд-мира цена может измениться"
+    ]
+  },
+  {
+    "name": "Штурмовая элитра",
+    "icon": "elytra-assault.png",
+    "category": "items",
+    "description": "Усиленная элитра для активного перемещения.",
+    "price": 150,
+    "command": "",
+    "perks": [
+      "Выдача предмета вручную",
+      "До открытия Энд-мира цена может измениться"
+    ]
+  },
+  {
+    "name": "Фейерверковая элитра",
+    "icon": "elytra-firework.png",
+    "category": "items",
+    "description": "Элитра для комфортных полётов с фейерверками.",
+    "price": 99,
+    "command": "",
+    "perks": [
+      "Выдача предмета вручную",
+      "До открытия Энд-мира цена может измениться"
+    ]
+  },
+  {
+    "name": "Веер ветров — 100 использований",
+    "icon": "wind-fan.png",
+    "category": "items",
+    "description": "Веер ветров с 100 использованиями.",
+    "price": 29,
+    "command": ""
+  },
+  {
+    "name": "Веер ветров — 500 использований",
+    "icon": "wind-fan.png",
+    "category": "items",
+    "description": "Веер ветров с 500 использованиями.",
+    "price": 69,
+    "command": ""
+  },
+  {
+    "name": "Веер ветров — 1000 использований",
+    "icon": "wind-fan.png",
+    "category": "items",
+    "description": "Веер ветров с 1000 использованиями.",
+    "price": 100,
+    "command": ""
+  },
+  {
+    "name": "Мультитул",
+    "icon": "multitool.png",
+    "category": "season",
+    "description": "Все инструменты в одном предмете, кроме оружия.",
+    "price": 250,
+    "command": "",
+    "perks": [
+      "Эффективность VII",
+      "Удача III",
+      "Действует в течение сезона",
+      "После вайпа удаляется"
+    ]
+  },
+  {
+    "name": "Миньон",
+    "icon": "minion.png",
+    "category": "minions",
+    "description": "Персональный помощник для автоматического выполнения работ.",
+    "price": 40,
+    "command": "",
+    "perks": [
+      "Фермер",
+      "Лесоруб",
+      "Убийца",
+      "Рыбак"
+    ]
+  },
+  {
+    "name": "Улучшение миньона",
+    "icon": "minion-upgrade.png",
+    "category": "minions",
+    "description": "Улучшение уже приобретённого миньона.",
+    "price": 20,
+    "command": ""
   }
 ]
