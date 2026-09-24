@@ -2,5 +2,7 @@
   { "id": "ranks",     "name": "Привилегии" },
   { "id": "races",     "name": "Расы" },
   { "id": "cosmetics", "name": "Косметика" },
-  { "id": "kits",      "name": "Наборы" }
+  { "id": "kits",      "name": "Наборы" },
+  { "id": "season",    "name": "Сезон" },
+  { "id": "items",     "name": "Предметы" },
 ]
