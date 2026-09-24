@@ -4,5 +4,5 @@
   { "id": "cosmetics", "name": "Косметика" },
   { "id": "kits",      "name": "Наборы" },
   { "id": "season",    "name": "Сезон" },
-  { "id": "items",     "name": "Предметы" },
+  { "id": "items",     "name": "Предметы" }
 ]
