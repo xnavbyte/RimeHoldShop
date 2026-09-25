@@ -4,7 +4,7 @@
     "icon": "nova.png",
     "category": "ranks",
     "description": "Базовая привилегия для комфортной игры.",
-    "price": 1,
+    "price": 119,
     "command": "lp user {player} parent add nova",
     "perks": [
       "/suicide",
