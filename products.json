@@ -202,7 +202,7 @@
     "icon": "race-key.png",
     "category": "races",
     "description": "Единоразовая смена расы без потери прогресса.",
-    "price": 20,
+    "price": 2,
     "command": "origin orb {user}"
   },
   {
