@@ -181,7 +181,7 @@
     "category": "items",
     "description": "Веер, который подбрасывает игрока вперёд и вверх. Идеально подходит для быстрого набора высоты и удобного старта полёта на элитрах.",
     "price": 29,
-    "command": "ei give {user} flight_fan200",
+    "command": "ei give {player} flight_fan200",
     "perks": [
       "200 использований"
     ]
@@ -192,7 +192,7 @@
     "category": "items",
     "description": "Веер, который подбрасывает игрока вперёд и вверх. Идеально подходит для быстрого набора высоты и удобного старта полёта на элитрах.",
     "price": 99,
-    "command": "ei give {user} flight_fan1000",
+    "command": "ei give {player} flight_fan1000",
     "perks": [
       "1000 использований"
     ]
@@ -203,7 +203,7 @@
     "category": "races",
     "description": "Единоразовая смена расы без потери прогресса.",
     "price": 2,
-    "command": "origin orb {user}"
+    "command": "origin orb {player}"
   },
   {
     "name": "Персональный суффикс",
@@ -211,7 +211,7 @@
     "category": "cosmetics",
     "description": "Персональный суффикс для чата. Можно использовать цвет и градиент.",
     "price": 49,
-    "command": "suffixaccess grant {user}",
+    "command": "suffixaccess grant {player}",
     "perks": [
       "Персональный текст",
       "Возможность сделать градиент",
@@ -224,7 +224,7 @@
     "category": "cosmetics",
     "description": "Персональный префикс для чата. Можно использовать цвет и градиент.",
     "price": 49,
-    "command": "prefixaccess grant {user}",
+    "command": "prefixaccess grant {player}",
     "perks": [
       "Персональный текст",
       "Возможность сделать градиент",
