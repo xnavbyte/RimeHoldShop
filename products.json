@@ -210,6 +210,7 @@
     "icon": "personal-suffix.png",
     "category": "cosmetics",
     "description": "Персональный суффикс для чата. Можно использовать цвет и градиент.",
+    "price": 49
     "command": "suffixaccess grant {user}",
     "perks": [
       "Персональный текст",
@@ -222,6 +223,7 @@
     "icon": "custom-prefix.png",
     "category": "cosmetics",
     "description": "Персональный префикс для чата. Можно использовать цвет и градиент.",
+    "price": 49
     "command": "prefixaccess grant {user}",
     "perks": [
       "Персональный текст",
