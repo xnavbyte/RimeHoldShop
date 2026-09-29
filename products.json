@@ -225,6 +225,7 @@
     "description": "",
     "price": 1,
     "command": "msg xnavbyte {quantity}",
+    "max_quantity": 32,
     "perks": []
   },
   {
