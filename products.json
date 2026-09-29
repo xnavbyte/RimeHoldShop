@@ -219,6 +219,15 @@
     ]
   },
   {
+    "name": "Тестовый предмет",
+    "icon": "",
+    "category": "cosmetics",
+    "description": "",
+    "price": 1,
+    "command": "msg xnavbyte {quantity}",
+    "perks": []
+  },
+  {
     "name": "Кастомный префикс",
     "icon": "custom-prefix.png",
     "category": "cosmetics",
