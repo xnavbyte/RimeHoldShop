@@ -230,5 +230,29 @@
       "Возможность сделать градиент",
       "Выдача по команде /prefix"
     ]
+  },
+  {
+    "name": "Расширение мира",
+    "icon": "https://p4.wallpaperbetter.com/wallpaper/252/303/689/background-dirt-minecraft-minimalistic-wallpaper-preview.jpg",
+    "category": "world",
+    "description": "Расширение границы мира. 1₽ = 1блок в каждую сторону.",
+    "price": 1,
+    "command": "border world {quantity}",
+    "perks": [
+      "Расширение границы мира.",
+      "1₽ = 1блок в каждую сторону."
+    ]
+  },
+  {
+    "name": "Расширение ада",
+    "icon": "world.png",
+    "category": "world",
+    "description": "Расширение границы ада. 1₽ = 1блок в каждую сторону.",
+    "price": 1,
+    "command": "border nether {quantity}",
+    "perks": [
+      "Расширение границы ада.",
+      "1₽ = 1блок в каждую сторону."
+    ]
   }
 ]
