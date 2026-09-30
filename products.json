@@ -246,7 +246,7 @@
   },
   {
     "name": "Расширение ада",
-    "icon": "world.png",
+    "icon": "https://minecraft.wiki/images/thumb/Netherrack_background_BE2.png/300px-Netherrack_background_BE2.png",
     "category": "world",
     "description": "Расширение границы ада. 1₽ = 1блок в каждую сторону.",
     "price": 1,
