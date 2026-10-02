@@ -4,7 +4,7 @@
     "icon": "nova.png",
     "category": "ranks",
     "description": "Привилегия Нова навсегда.",
-    "price": 259,
+    "price": 229,
     "command": "lp user {player} parent add nova",
     "perks": [
       "/tpa - телепортация к другому игроку",
@@ -22,7 +22,7 @@
     "icon": "nova.png",
     "category": "ranks",
     "description": "Привилегия Нова сроком на 30 дней.",
-    "price": 119,
+    "price": 99,
     "command": "lp user {player} parent addtemp nova 30d",
     "perks": [
       "/tpa - телепортация к другому игроку",
@@ -40,7 +40,7 @@
     "icon": "spark.png",
     "category": "ranks",
     "description": "Привилегия спарк навсегда.",
-    "price": 459,
+    "price": 409,
     "command": "lp user {player} parent add spark",
     "perks": [
       "/tpa - телепортация к другому игроку",
@@ -61,7 +61,7 @@
     "icon": "spark.png",
     "category": "ranks",
     "description": "Привилегия спарк сроком на 30 дней.",
-    "price": 249,
+    "price": 219,
     "command": "lp user {player} parent addtemp spark 30d",
     "perks": [
       "/tpa - телепортация к другому игроку",
@@ -82,7 +82,7 @@
     "icon": "shine.png",
     "category": "ranks",
     "description": "Привилегия шайн навсегда.",
-    "price": 799,
+    "price": 719,
     "command": "lp user {player} parent add shine",
     "perks": [
       "/tpa - телепортация к другому игроку",
@@ -104,7 +104,7 @@
     "icon": "shine.png",
     "category": "ranks",
     "description": "Привилегия шайн сроком на 30 дней.",
-    "price": 459,
+    "price": 409,
     "command": "lp user {player} parent addtemp shine 30d",
     "perks": [
       "/tpa - телепортация к другому игроку",
@@ -126,7 +126,7 @@
     "icon": "fable.png",
     "category": "ranks",
     "description": "Привилегия Фейбл навсегда.",
-    "price": 999,
+    "price": 899,
     "command": "lp user {player} parent add fable",
     "perks": [
       "/tpa - телепортация к другому игроку",
@@ -153,7 +153,7 @@
     "icon": "fable.png",
     "category": "ranks",
     "description": "Привилегия Фейбл сроком на 30 дней.",
-    "price": 699,
+    "price": 629,
     "command": "lp user {player} parent addtemp fable 30d",
     "perks": [
       "/tpa - телепортация к другому игроку",
@@ -257,4 +257,3 @@
       "1₽ = 1блок в каждую сторону."
     ]
   }
-]
