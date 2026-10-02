@@ -2,7 +2,7 @@
   { "id": "ranks",     "name": "Привилегии" },
   { "id": "races",     "name": "Расы" },
   { "id": "cosmetics", "name": "Косметика" },
-  { "id": "kits",      "name": "Наборы" },
+  { "id": "currency",      "name": "Валюта" },
   { "id": "season",    "name": "Сезон" },
   { "id": "items",     "name": "Предметы" },
   { "id": "world",     "name": "Мир" }
