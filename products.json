@@ -3,14 +3,13 @@
     "name": "Мяуры",
     "icon": "myaury.png",
     "category": "currency",
-    "description": "Внутриигровая валюта для покупки косметики на сервере.",
+    "description": "Внутриигровая валюта Мяуры на сервере.",
     "price": 1,
     "command": "myaurs give {player} {quantity}",
     "max_quantity": 7777,
     "perks": [
       "1 ₽ = 1 Мяур",
-      "Можно использовать для покупки косметики на сервере",
-      " 1 ₽ = 1 Мяур. "
+      "Можно использовать для покупки косметики на сервере"
     ]
   },
   {
@@ -263,3 +262,11 @@
     "icon": "https://minecraft.wiki/images/thumb/Netherrack_background_BE2.png/300px-Netherrack_background_BE2.png",
     "category": "world",
     "description": "Расширение границы ада. 1₽ = 1блок в каждую сторону.",
+    "price": 1,
+    "command": "border nether {quantity}",
+    "max_quantity": 1000,
+    "perks": [
+      "Расширение границы ада.",
+      "1₽ = 1блок в каждую сторону."
+    ]
+  }
