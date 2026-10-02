@@ -1,5 +1,14 @@
 [
   {
+    "name": "Мяуры",
+    "icon": "myaury.png",
+    "category": "currency",
+    "description": "Внутриигровая валюта, для покупки косметики на сервере. 1 ₽ = 1 Мяур.",
+    "price": 1,
+    "command": "myaurs give {player} {quantity}",
+    "max_quantity": 7777
+  },
+  {
     "name": "Нова Навсегда",
     "icon": "nova.png",
     "category": "ranks",
