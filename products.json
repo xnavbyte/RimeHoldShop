@@ -269,5 +269,15 @@
       "Расширение границы ада.",
       "1₽ = 1блок в каждую сторону."
     ]
+  },
+  {
+    "name": "Cтатуэтка Hatsune Miku",
+    "category": "decoration",
+    "price": 60,
+    "tag": "new",
+    "icon": "261003_16h13m33s_screenshot.png",
+    "description": "Статуэтка — не предмет. Устанавливается администрацией единоразово.",
+    "command": "m xnavbyte &b&l{player} купил мику",
+    "max_quantity": 1
   }
 ]
