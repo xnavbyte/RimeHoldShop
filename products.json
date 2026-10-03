@@ -277,7 +277,27 @@
     "tag": "new",
     "icon": "261003_16h13m33s_screenshot.png",
     "description": "Статуэтка — не предмет. Устанавливается администрацией единоразово.",
-    "command": "m xnavbyte &b&l{player} купил мику",
+    "command": "m xnavbyte &c&l{player} купил мику",
+    "max_quantity": 1
+  },
+  {
+    "name": "Cтатуэтка Kasane Teto",
+    "category": "decoration",
+    "price": 60,
+    "tag": "new",
+    "icon": "261003_16h23m04s_screenshot.png",
+    "description": "Статуэтка — не предмет. Устанавливается администрацией единоразово.",
+    "command": "m xnavbyte &c&l{player} купил тето",
+    "max_quantity": 1
+  },
+  {
+    "name": "Cтатуэтка Jenny",
+    "category": "decoration",
+    "price": 60,
+    "tag": "new",
+    "icon": "261003_16h28m37s_screenshot.png",
+    "description": "Статуэтка — не предмет. Устанавливается администрацией единоразово.",
+    "command": "m xnavbyte &c&l{player} купил Джинни",
     "max_quantity": 1
   }
 ]
