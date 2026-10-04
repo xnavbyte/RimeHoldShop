@@ -1,5 +1,4 @@
-[
-
+[  
   {
   "id": "nova-30",
   "group": "Нова",
@@ -32,7 +31,7 @@
   "category": "ranks",
   "price": 299,
   "command": "lp user {player} parent addtemp nova 90d accumulate"
-}
+},
   {
     "name": "Мяуры",
     "icon": "myaury.png",
