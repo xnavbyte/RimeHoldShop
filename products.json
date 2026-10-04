@@ -1,37 +1,42 @@
-[  
+[
   {
-  "id": "nova-30",
-  "group": "Нова",
-  "name": "Нова на 30 дней",
-  "duration": "30 дней",
-  "days": 30,
-  "icon": "nova.png",
-  "category": "ranks",
-  "description": "Базовая привилегия для комфортной игры.",
-  "perks": ["/hat", "/craft", "/feed", "1 дом"],
-  "price": 119,
-  "command": "lp user {player} parent addtemp nova 30d accumulate"
-},
-{
-  "id": "nova-60",
-  "group": "Нова",
-  "name": "Нова на 60 дней",
-  "duration": "60 дней",
-  "days": 60,
-  "category": "ranks",
-  "price": 219,
-  "command": "lp user {player} parent addtemp nova 60d accumulate"
-},
-{
-  "id": "nova-90",
-  "group": "Нова",
-  "name": "Нова на 90 дней",
-  "duration": "90 дней",
-  "days": 90,
-  "category": "ranks",
-  "price": 299,
-  "command": "lp user {player} parent addtemp nova 90d accumulate"
-},
+    "id": "nova-30",
+    "group": "Нова",
+    "name": "Нова на 30 дней",
+    "duration": "30 дней",
+    "days": 30,
+    "icon": "nova.png",
+    "category": "ranks",
+    "description": "Базовая привилегия для комфортной игры.",
+    "perks": [
+      "/hat",
+      "/craft",
+      "/feed",
+      "1 дом"
+    ],
+    "price": 119,
+    "command": "lp user {player} parent addtemp nova 30d accumulate"
+  },
+  {
+    "id": "nova-60",
+    "group": "Нова",
+    "name": "Нова на 60 дней",
+    "duration": "60 дней",
+    "days": 60,
+    "category": "ranks",
+    "price": 219,
+    "command": "lp user {player} parent addtemp nova 60d accumulate"
+  },
+  {
+    "id": "nova-90",
+    "group": "Нова",
+    "name": "Нова на 90 дней",
+    "duration": "90 дней",
+    "days": 90,
+    "category": "ranks",
+    "price": 299,
+    "command": "lp user {player} parent addtemp nova 90d accumulate"
+  },
   {
     "name": "Мяуры",
     "icon": "myaury.png",
