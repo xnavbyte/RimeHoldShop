@@ -1,43 +1,5 @@
 [
   {
-    "id": "nova-30",
-    "group": "Нова",
-    "name": "Нова на 30 дней",
-    "duration": "30 дней",
-    "days": 30,
-    "icon": "nova.png",
-    "category": "ranks",
-    "description": "Базовая привилегия для комфортной игры.",
-    "perks": [
-      "/hat",
-      "/craft",
-      "/feed",
-      "1 дом"
-    ],
-    "price": 119,
-    "command": "lp user {player} parent addtemp nova 30d accumulate"
-  },
-  {
-    "id": "nova-60",
-    "group": "Нова",
-    "name": "Нова на 60 дней",
-    "duration": "60 дней",
-    "days": 60,
-    "category": "ranks",
-    "price": 219,
-    "command": "lp user {player} parent addtemp nova 60d accumulate"
-  },
-  {
-    "id": "nova-90",
-    "group": "Нова",
-    "name": "Нова на 90 дней",
-    "duration": "90 дней",
-    "days": 90,
-    "category": "ranks",
-    "price": 299,
-    "command": "lp user {player} parent addtemp nova 90d accumulate"
-  },
-  {
     "name": "Мяуры",
     "icon": "myaury.png",
     "category": "currency",
@@ -51,28 +13,13 @@
     ]
   },
   {
-    "name": "Нова Навсегда",
-    "icon": "nova.png",
-    "category": "ranks",
-    "description": "Привилегия Нова навсегда.",
-    "price": 229,
-    "command": "lp user {player} parent add nova",
-    "perks": [
-      "/tpa - телепортация к другому игроку",
-      "/hat - надеть предмет в руке на голову",
-      "/craft - открыть верстак",
-      "/smithingtable - открыть кузнечный стол",
-      "/suicide - совершить самоубийство",
-      "/resize - изменение размера от 0.8 до 1.2",
-      "/suff - 12 суффиксов на выбор",
-      "Телепортация доступна только между игроками с привелегией"
-    ]
-  },
-  {
     "name": "Нова 30 дней",
+    "group": "Нова",
+    "duration": "30 дней",
+    "days": 30,
     "icon": "nova.png",
     "category": "ranks",
-    "description": "Привилегия Нова сроком на 30 дней.",
+    "description": "Привилегия Нова.",
     "price": 99,
     "command": "lp user {player} parent addtemp nova 30d",
     "perks": [
@@ -87,31 +34,34 @@
     ]
   },
   {
-    "name": "Спарк Навсегда",
-    "icon": "spark.png",
+    "name": "Нова Навсегда",
+    "group": "Нова",
+    "duration": "Навсегда",
+    "days": 99999,
+    "icon": "nova.png",
     "category": "ranks",
-    "description": "Привилегия спарк навсегда.",
-    "price": 409,
-    "command": "lp user {player} parent add spark",
+    "description": "Привилегия Нова.",
+    "price": 229,
+    "command": "lp user {player} parent add nova",
     "perks": [
       "/tpa - телепортация к другому игроку",
       "/hat - надеть предмет в руке на голову",
       "/craft - открыть верстак",
       "/smithingtable - открыть кузнечный стол",
       "/suicide - совершить самоубийство",
-      "/resize - изменение размера от 0.7 до 1.4",
-      "/suff - доступно 18 суффиксов",
-      "/ec - открыть эндер-сундук",
-      "/mghast - скорость счастливого гаста х1.2",
-      "/anvil - открыть наковальню",
+      "/resize - изменение размера от 0.8 до 1.2",
+      "/suff - 12 суффиксов на выбор",
       "Телепортация доступна только между игроками с привелегией"
     ]
   },
   {
     "name": "Спарк 30 дней",
+    "group": "Спарк",
+    "duration": "30 дней",
+    "days": 30,
     "icon": "spark.png",
     "category": "ranks",
-    "description": "Привилегия спарк сроком на 30 дней.",
+    "description": "Привилегия Спарк.",
     "price": 219,
     "command": "lp user {player} parent addtemp spark 30d",
     "perks": [
@@ -129,32 +79,37 @@
     ]
   },
   {
-    "name": "Шайн Навсегда",
-    "icon": "shine.png",
+    "name": "Спарк Навсегда",
+    "group": "Спарк",
+    "duration": "Навсегда",
+    "days": 99999,
+    "icon": "spark.png",
     "category": "ranks",
-    "description": "Привилегия шайн навсегда.",
-    "price": 719,
-    "command": "lp user {player} parent add shine",
+    "description": "Привилегия Спарк.",
+    "price": 409,
+    "command": "lp user {player} parent add spark",
     "perks": [
       "/tpa - телепортация к другому игроку",
       "/hat - надеть предмет в руке на голову",
       "/craft - открыть верстак",
       "/smithingtable - открыть кузнечный стол",
       "/suicide - совершить самоубийство",
-      "/resize - изменение размера от 0.6 до 1.6",
-      "/suff - доступно 23 суффикса",
+      "/resize - изменение размера от 0.7 до 1.4",
+      "/suff - доступно 18 суффиксов",
       "/ec - открыть эндер-сундук",
-      "/mghast - скорость счастливого гаста до 1.4",
+      "/mghast - скорость счастливого гаста х1.2",
       "/anvil - открыть наковальню",
-      "/glow - 7 цветов свечения",
       "Телепортация доступна только между игроками с привелегией"
     ]
   },
   {
     "name": "Шайн 30 дней",
+    "group": "Шайн",
+    "duration": "30 дней",
+    "days": 30,
     "icon": "shine.png",
     "category": "ranks",
-    "description": "Привилегия шайн сроком на 30 дней.",
+    "description": "Привилегия Шайн.",
     "price": 409,
     "command": "lp user {player} parent addtemp shine 30d",
     "perks": [
@@ -173,12 +128,40 @@
     ]
   },
   {
-    "name": "Фейбл Навсегда",
+    "name": "Шайн Навсегда",
+    "group": "Шайн",
+    "duration": "Навсегда",
+    "days": 99999,
+    "icon": "shine.png",
+    "category": "ranks",
+    "description": "Привилегия Шайн.",
+    "price": 719,
+    "command": "lp user {player} parent add shine",
+    "perks": [
+      "/tpa - телепортация к другому игроку",
+      "/hat - надеть предмет в руке на голову",
+      "/craft - открыть верстак",
+      "/smithingtable - открыть кузнечный стол",
+      "/suicide - совершить самоубийство",
+      "/resize - изменение размера от 0.6 до 1.6",
+      "/suff - доступно 23 суффикса",
+      "/ec - открыть эндер-сундук",
+      "/mghast - скорость счастливого гаста до 1.4",
+      "/anvil - открыть наковальню",
+      "/glow - 7 цветов свечения",
+      "Телепортация доступна только между игроками с привелегией"
+    ]
+  },
+  {
+    "name": "Фейбл 30 дней",
+    "group": "Фейбл",
+    "duration": "30 дней",
+    "days": 30,
     "icon": "fable.png",
     "category": "ranks",
-    "description": "Привилегия Фейбл навсегда.",
-    "price": 899,
-    "command": "lp user {player} parent add fable",
+    "description": "Привилегия Фейбл.",
+    "price": 629,
+    "command": "lp user {player} parent addtemp fable 30d",
     "perks": [
       "/tpa - телепортация к другому игроку",
       "/hat - надеть предмет в руке на голову",
@@ -200,12 +183,15 @@
     ]
   },
   {
-    "name": "Фейбл 30 дней",
+    "name": "Фейбл Навсегда",
+    "group": "Фейбл",
+    "duration": "Навсегда",
+    "days": 99999,
     "icon": "fable.png",
     "category": "ranks",
-    "description": "Привилегия Фейбл сроком на 30 дней.",
-    "price": 629,
-    "command": "lp user {player} parent addtemp fable 30d",
+    "description": "Привилегия Фейбл.",
+    "price": 899,
+    "command": "lp user {player} parent add fable",
     "perks": [
       "/tpa - телепортация к другому игроку",
       "/hat - надеть предмет в руке на голову",
